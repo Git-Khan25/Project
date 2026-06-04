@@ -220,6 +220,3 @@ TOPIC|Question text|Option A|Option B|Option C|Option D|CORRECT|DIFFICULTY
 
 ---
 
-## 📄 License
-
-This project is developed for academic purposes at Vardhaman College of Engineering.
