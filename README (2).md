@@ -1,7 +1,6 @@
 # 🕹️ Quiz App with Timer and Leaderboard
 
-> **Vardhaman College of Engineering — CSE Summer Project E-06**  
-> *Race the Clock · Beat the Board · Prove Your Skills*
+
 
 ---
 
