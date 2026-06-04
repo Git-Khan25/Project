@@ -1,7 +1,6 @@
 # 🕹️ Quiz App with Timer and Leaderboard
 
 
-
 ---
 
 ## 📋 About
