@@ -1,7 +1,6 @@
 # 🕹️ Quiz App with Timer and Leaderboard
 
-> **Vardhaman College of Engineering — CSE Summer Project E-06**  
-> *Race the Clock · Beat the Board · Prove Your Skills*
+
 
 ---
 
@@ -127,16 +126,4 @@ TOPIC|Question text|Option A|Option B|Option C|Option D|CORRECT|DIFFICULTY
 
 ---
 
-## 👥 Team Roles
 
-| Role | Responsibilities |
-|---|---|
-| 💻 Quiz Engine Dev | `QuizEngine`, `Question`, `FileParser`, questions bank |
-| ⏱️ Timer & Scoring Dev | `Timer`, `Player`, scoring logic in `QuizEngine` |
-| 🏆 Leaderboard Dev | `Leaderboard`, `main.cpp`, `README`, result card |
-
----
-
-## 📄 License
-
-This project is developed for academic purposes at Vardhaman College of Engineering.
