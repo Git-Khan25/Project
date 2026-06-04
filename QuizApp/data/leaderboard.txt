@@ -1,0 +1,2 @@
+# Leaderboard  Format: PlayerName|Score|Date
+# This file is managed automatically by the Quiz App.
