@@ -75,27 +75,24 @@ namespace Utils {
         return std::string(buf);
     }
 
-    inline void printBanner() {
-        using namespace Color;
-        clearScreen();
-        printLine('=');
-        std::cout << BOLD << CYAN
-            << "\n"
-            << "   ██████╗ ██╗   ██╗██╗███████╗     █████╗ ██████╗ ██████╗ \n"
-            << "  ██╔═══██╗██║   ██║██║╚════██║    ██╔══██╗██╔══██╗██╔══██╗\n"
-            << "  ██║   ██║██║   ██║██║    ██╔╝    ███████║██████╔╝██████╔╝\n"
-            << "  ██║▄▄ ██║██║   ██║██║   ██╔╝     ██╔══██║██╔═══╝ ██╔═══╝ \n"
-            << "  ╚██████╔╝╚██████╔╝██║   ██║      ██║  ██║██║     ██║     \n"
-            << "   ╚══▀▀═╝  ╚═════╝ ╚═╝   ╚═╝      ╚═╝  ╚═╝╚═╝     ╚═╝     \n"
-            << "\n" << RESET;
-        std::cout << BOLD << MAGENTA
-            << "          Race the Clock · Beat the Board · Prove Your Skills\n"
-            << RESET;
-        printLine('=');
-        std::cout << DIM
-            << "  Vardhaman College of Engineering  |  CSE Summer Project E-06\n"
-            << RESET;
-        printLine('-');
-        std::cout << "\n";
-    }
+   inline void printBanner() {
+    using namespace Color;
+    clearScreen();
+    printLine('*');
+    std::cout << "\n";
+    std::cout << BOLD << CYAN
+        << "                  Q U I Z   A P P\n"
+        << RESET;
+    std::cout << "\n";
+    printLine('*');
+    std::cout << BOLD << MAGENTA
+        << "    Race the Clock  |  Beat the Board  |  Prove Your Skills\n"
+        << RESET;
+    printLine('=');
+    std::cout << DIM
+        << "  Vardhaman College of Engineering\n"
+        << RESET;
+    printLine('-');
+    std::cout << "\n";
+ }
 }
