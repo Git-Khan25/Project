@@ -75,23 +75,26 @@ namespace Utils {
         return std::string(buf);
     }
 
-   inline void printBanner() {
+inline void printBanner() {
     using namespace Color;
     clearScreen();
-    printLine('*');
-    std::cout << "\n";
-    std::cout << BOLD << CYAN
-        << "                  Q U I Z   A P P\n"
-        << RESET;
-    std::cout << "\n";
-    printLine('*');
-    std::cout << BOLD << MAGENTA
-        << "    Race the Clock  |  Beat the Board  |  Prove Your Skills\n"
-        << RESET;
+    printLine('=');
+    std::cout << BOLD << CYAN << "\n"
+    << "   ___  _   _ ___ ____      _    ____  ____  \n"
+    << "  / _ \\| | | |_ _|_  /     / \\  |  _ \\|  _ \\ \n"
+    << " | | | | | | || | / /     / _ \\ | |_) | |_) |\n"
+    << " | |_| | |_| || |/ /_    / ___ \\|  __/|  __/ \n"
+    << "  \\__\\_\\\\___/|___/____|  /_/   \\_\\_|   |_|    \n"
+    << "\n" << RESET;
+    std::cout << BOLD << YELLOW
+    << "  +==============================================+\n"
+    << "  |  Race the Clock * Beat the Board * Win Big  |\n"
+    << "  +==============================================+\n"
+    << RESET;
     printLine('=');
     std::cout << DIM
-        << "  Vardhaman College of Engineering\n"
-        << RESET;
+    << "       Vardhaman College of Engineering\n"
+    << RESET;
     printLine('-');
     std::cout << "\n";
  }
