@@ -1,21 +1,6 @@
 # 🕹️ Quiz App with Timer and Leaderboard
 
 
-
----
-
-## 👥 Team Members
-
-| Role | Name |
-|---|---|
-| Quiz Engine & Adaptive AI | |
-| Question Bank & File Parser | |
-| Timer & Scoring System | |
-| Leaderboard & Result Card | |
-| Testing & Documentation | |
-
----
-
 ## 📋 About
 
 A console-based C++ MCQ quiz engine that loads questions from a structured text file. Players choose a subject category, face a countdown timer per question, receive instant right/wrong feedback, and earn scores with negative marking. A result card summarises topic-wise accuracy. A persistent leaderboard file maintains the all-time top-10 scores. An adaptive AI tracks per-topic accuracy across sessions and serves more questions from weak topics.
